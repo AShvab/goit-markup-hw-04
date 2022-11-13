@@ -154,6 +154,12 @@ img {
   color: inherit;
 
 }
+.header-contact-icon {
+  margin-right: 10px;
+ 
+  fill: var(--primary-text-color);
+    
+}
 
 .header-contact:hover,
 .header-contact:focus {
@@ -364,6 +370,43 @@ width: calc((100%-60px) / 3);
 .team-soc-link:hover .team-soc-icon,
 .team-soc-link:focus .team-soc-icon {
   fill: #FFFFFF;
+}
+
+/* --------------------clients-------------------- */
+
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.clients-subtitle {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.clients-list-item {
+  width: 170px;
+  height: 92px;
+}
+.clients-list-link {
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+
 }
 
 /* ------------------filter-btn-------------------- */
