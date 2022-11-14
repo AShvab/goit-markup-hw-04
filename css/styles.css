@@ -578,7 +578,7 @@ width: calc((100%-60px) / 3);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
 
@@ -600,13 +600,14 @@ width: calc((100%-60px) / 3);
   color: rgba(255, 255, 255, 0.6);
 }
 
+
 .contacts-link:hover,
 .contacts-mail:hover,
 .contacts-phone:hover,
 .contacts-link:focus,
 .contacts-mail:focus,
 .contacts-phone:focus {
-   color:var(--accent-color); 
+   color:var(--secondary-text-color); 
 } 
 /* ---------------------footer-soc--------------------- */
 .footer-soc {
