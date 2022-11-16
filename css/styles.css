@@ -180,6 +180,8 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
+  margin: 0 auto;
   
   
   padding-top: 200px;
@@ -311,7 +313,7 @@ width: calc((100%-60px) / 3);
 
 .team-item-border {
   padding: 30px 0;
-  
+  background-color: var(--primary-background-color);  
 }
 
 
